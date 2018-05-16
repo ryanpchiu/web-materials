@@ -12,7 +12,7 @@ shinyUI(navbarPage(
 
       # Side panel for controls
       sidebarPanel(
-
+      tags$h2("Hello"),
         # Input to select variable to map
         selectInput(
           "mapvar",
